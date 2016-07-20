@@ -2,7 +2,7 @@ FROM ubuntu:latest
 MAINTAINER Wenjun Gu "gwj41@hotmail.com"
 ENV REFRESHED_AT 2016-05-04
 ENV JAVA_VERSION_MAJOR 8
-ENV JAVA_VERSION_UPDATE 92
+ENV JAVA_VERSION_UPDATE 102
 RUN mkdir /usr/jdk && \
 apt-get update && \
 apt-get install -y wget && \
